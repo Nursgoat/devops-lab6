@@ -1,0 +1,10 @@
+name: Hello World
+
+on: [push]
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello from Nurs(e)yi(l)
+        run: echo "Hello from Кенжеғара Нұрсейіл"
